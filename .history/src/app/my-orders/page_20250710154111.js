@@ -53,7 +53,7 @@ export default function MyOrdersPage() {
 
       {orders.length === 0 ? (
         <p className="text-light-text-secondary dark:text-dark-text-secondary">You haven&apos;t placed any orders yet.</p>
-  ) : (
+   ) : (
         <div className="space-y-6">
           {orders.map(order => (
             <div
